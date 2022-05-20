@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Favicon-->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <!--Favicon-->
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--Google Fonts-->
+
+    <link rel="stylesheet" href="./styles.css" />
+    <style>
+      .attribution {
+        text-align: center;
+        color: var(black);
+        font-size: 0.7rem;
+      }
+
+      .attribution a {
+        color: hsl(226, 93%, 46%);
+        text-decoration: none;
+        font-weight: 700;
+      }
+    </style>
+    <title>Frontend Mentor |Intro Component with Signup Form </title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="header-container">
+          <h1>Learn to code by watching others</h1>
+          <p>
+            See how experienced developers solve problems in real-time. Watching
+            scripted tutorials is great, but understanding how developers think
+            is invaluable.
+          </p>
+          <!--end of header-container div ==> -->
+        </div>
+
+        <div class="form-container">
+          <div class="try-box">
+            <p><span>Try it free 7 days</span> then $20/mo. thereafter</p>
+          </div>
+          <!-- <div class="form-container"> -->
+          <form action="/" method="GET" class="form" id="form">
+            <div class="input-control">
+              <input
+              type="text"
+              name="firstname"
+              id="firstname"
+              class="inputs first-name "
+              placeholder="First Name"
+              
+            />
+            <div class="alert-container"><i class="alert-message"></i></div>
+            </div>
+            <div class="input-control">
+              <input
+              type="text"
+              name="lastname"
+              id="lastname"
+              class="inputs last-name  "
+              placeholder="Last Name"
+              
+            />
+            <div class="alert-container"><i class="alert-message"></i></div>
+            </div>
+            <div class="input-control">
+
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="inputs email  "
+                placeholder="Email Address"
+                
+              />
+              <div class="alert-container"><i class="alert-message"></i></div>
+            </div>
+            <div class="input-control">
+
+              <input
+                type="password"
+                name="password"
+                id="password"
+                class="inputs password  "
+                placeholder="Password"
+                
+              />
+              <div class="alert-container">
+                <i class="alert-message"></i></div>
+            </div>
+              <button type="submit" class="inputs btn-submit">
+                Claim your free trial
+              </button>
+            </p>
+
+            <p class="terms">
+              By clicking the button, you are agreeing to our
+              <a href="/">Terms and Services</a>
+            </p>
+          </form>
+          <!-- </div> -->
+        </div>
+
+        <!-- end of container div ==> -->
+      </div>
+    </main>
+    <footer class="attribution">
+      Challenge by &nbsp;
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+        Frontend Mentor
+      </a>
+      . Coded by &nbsp;
+      <a href="https://github.com/comendrun"> Kamran</a>.
+    </footer>
+      <script type="text/javascript" src="./app.js"></script>
+    </body>
+</html>
+
+
+<!--so this challenge will challenge my JS knowledge and also i will learn about client-side authentication with JS (Hopefully)-->
+<!-- Lets get down to it then -->
+<!-- * why we would consider this kind of validation? why we need to do this at all? well, this way it could be much faster to validate the data that entered by the user, and it would be much faster than sending data to server and process it that way  -->
+<!-- with JS we can almost validate any form we want by simple functions and  variables-->
+<!-- this way we will have only acceptable inputs from user (client) to be sent to our server -->
+<!-- so, according to MDN docs there are two types of client side form validation, first is the built in validation features in html that will allow us to very basicly have required data in requred format. its much better performance wise and also much easier to keep track of it, but its much simpler and not so customizable
+the second type is by JS -->

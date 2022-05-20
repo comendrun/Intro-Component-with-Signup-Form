@@ -1,0 +1,19 @@
+{
+  "name": "intro-component-with-signup-form",
+  "version": "1.0.0",
+  "description": "Frontend Mentor Challenge",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comendrun/Intro-Component-with-Signup-Form.git"
+  },
+  "author": "comendrun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/comendrun/Intro-Component-with-Signup-Form/issues"
+  },
+  "homepage": "https://github.com/comendrun/Intro-Component-with-Signup-Form#readme"
+}
