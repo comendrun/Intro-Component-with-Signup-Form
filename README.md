@@ -56,21 +56,6 @@ Users should be able to:
   so, according to MDN docs there are two types of client side form validation, first is the built in validation features in html that will allow us to basicly require data in required format from user. its much better performance wise and also much easier to keep track of it, but its much simpler and not so customizable
   the second type is by JS 
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
 
 ### Continued development
 
